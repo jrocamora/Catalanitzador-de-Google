@@ -1,0 +1,22 @@
+{
+  "name": "Catalanitzador de Google",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "El catalanitzador de Google força totes les cerques de Google en Català.",
+  "permissions": [
+    "webNavigation",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.sw.js"
+  },
+  "action": {
+    "default_title": "El catalanitzador de Google força totes les cerques de Google en Català. Fes click per desactivar l'extensió"
+  },
+  "icons": {
+    "16": "CatalanG_16.png",
+    "32": "CatalanG_32.png",
+    "48": "CatalanG_48.png",
+    "128": "CatalanG_128.png"
+  }
+}
